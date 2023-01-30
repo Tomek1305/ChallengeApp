@@ -1,2 +1,2 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Witaj mistrzu!");
+Console.WriteLine("Witaj mistrzu! W czym mogę pomóc?");
