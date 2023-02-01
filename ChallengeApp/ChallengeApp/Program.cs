@@ -10,7 +10,7 @@ else if(gender == "Kobieta" && name == "Ewa" && age == 33)
 {
     Console.WriteLine("Ewa, lat 33");
 }
-else if(name == "Tomek" && age < 17)
+else if(name == "Tomek" && age <= 17)
 {
     Console.WriteLine("Niepełnoletni Mężczyzna");
 }
