@@ -1,6 +1,5 @@
 ﻿using ChallengeApp;
 
-
 Employee employee1 = new Employee("Tomek ", "Kowalski", 29 );
 Employee employee2 = new Employee("Esther ", "Kowalska ", 24 );
 Employee employee3 = new Employee("Lexi ", "Kowalska ", 6 );
@@ -49,7 +48,7 @@ foreach (var employee in employees)
 {
     if (employee.Result == maxresult)
     {
-        Console.WriteLine("Najwięksaz ilość punktów zdobył(a) " + employee.name + employee.surname  + "lat " + employee.age  + " Uzyskał(a) " + employee.Result + " punktów");
+        Console.WriteLine("Najwięksaz ilość punktów zdobył(a) " + employee. Name + employee.Surname  + "lat " + employee.Age  + " Uzyskał(a) " + employee.Result + " punktów");
     }
 }
   
